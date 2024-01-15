@@ -1,0 +1,90 @@
+header {
+    overflow: hidden;
+}
+
+.banner {
+    display: inline-block;
+    position: relative;
+}
+
+
+.title1 {
+
+    color: #FFF;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 550;
+    margin: 170px 400px 450px 700px;
+
+}
+
+
+
+.title2 {
+    color: #FFF;
+    position: absolute;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    margin: 230px 484px 177px 484px;
+     
+}
+
+.banner-image {
+    border-radius: 16px;
+    width: 1320px;
+    height: 600px;
+    margin: 50px 140px;
+    object-fit: cover;
+    background: linear-gradient(180deg, #190202 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+.bodypart-text {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.bodytext-line {
+
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.categories-text {
+
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.body-partarea {
+    display: block;
+    lign-items: center;
+}
+
+.newphoto-scrap {
+    width: 802.9px;
+    height: 500px;
+    position: relative;
+    
+    
+}
