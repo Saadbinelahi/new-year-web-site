@@ -1,46 +1,42 @@
-header {
-    overflow: hidden;
-}
 
 .banner {
-    display: inline-block;
     position: relative;
+    
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+    
+    
+}
+
+.banner-title {
+    position: absolute;
+    top: 10%;
+    padding: 30px;
+    text-align: center;
 }
 
 
-.title1 {
-
-    color: #FFF;
+.banner-title h3 {
+    color: #fcfcfc;
     position: absolute;
-    display: flex;
-    text-align: center;
-    font-size: 32px;
+    font-size: 50px;
+    top: 10%;
     font-weight: 550;
-    margin: 170px 400px 450px 700px;
-
+    
 }
 
-
-
-.title2 {
-    color: #FFF;
+.banner-title h2 {
+    color: #f0efef;
     position: absolute;
-    text-align: center;
-    font-size: 72px;
+    font-size: 100px;
     font-weight: 900;
-    line-height: 95px;
-    margin: 230px 484px 177px 484px;
-     
+    top: 20%;
 }
 
-.banner-image {
-    border-radius: 16px;
-    width: 1320px;
-    height: 600px;
-    margin: 50px 140px;
-    object-fit: cover;
-    background: linear-gradient(180deg, #190202 0%, rgba(7, 2, 17, 0.00) 100%);
-}
+/* second part */
 
 .bodypart-text {
     color: #F00;
@@ -63,7 +59,6 @@ header {
     line-height: normal;
 }
 
-
 .categories-text {
 
     color: #070211;
@@ -73,7 +68,6 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-
 }
 
 .body-partarea {
@@ -84,7 +78,40 @@ header {
 .newphoto-scrap {
     width: 802.9px;
     height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     
+}
+
+/* third part */
+
+.third-banner-card {
     position: relative;
+    margin-top: 80px;
+}
+
+.third-banner-card img{
+    height: auto;
+    max-width: 100%;
     
+}
+
+.banner-text {
+    position: absolute;
+    top: 10%;
+    padding:20px;
+}
+
+.banner-text h2 {
+    font-size: 64px;
+    font-weight: 900;
+    color: #FFF;
+}
+
+.banner-text p {
+    font-weight: 400;
+    color: #FFF;
+    font-size: 25px;
     
 }
