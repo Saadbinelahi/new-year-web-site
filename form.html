@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            margin-right: 20px;
+        }
+
+        .login-form-container {
+            display: flex;
+            justify-content: center;
+            border: gray dotted 15px;
+            
+        }
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            border: gray dotted 5px;
+            
+            
+        }
+
+        .login-form input  {
+            margin-top: 25px;
+            border: gray solid 1px;
+            border-radius: 5px;
+            width: 300px;
+            height: 40px;
+            
+    
+        }
+        input[type="submit"]
+             {
+            width: 250px;
+            height: 40px;
+            margin-left: 25px;
+            border-radius: gray solid 15px;
+            
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <nav class="navigation-panel">
+        <div>
+            <a href="" class="nav-pan">Home</a>
+            <a href="" class="nav-pan">Blog</a>
+            <a href="" class="nav-pan">About</a>
+        </div>
+        <a href="" class="nav-pan">Login</a>
+    </nav>
+
+    <Section class="login-form-container">
+
+        <div class="login-form">
+            <div class="form"><input placeholder="Name" type="text" required></div>
+            <div class="form"><input placeholder="email" type="email" required></div>
+            <div class="form"><input placeholder="password" type="password" required></div>
+
+            <input class="button" type="submit" value="Login">
+        </div>
+    </Section>
+    
+</body>
+</html>

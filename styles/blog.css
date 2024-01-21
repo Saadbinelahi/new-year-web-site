@@ -1,117 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Open+Sans:ital,wght@0,400;0,800;1,400&display=swap');
 
-.banner {
-    position: relative;
-    
+* {
+font-family: 'Inter', sans-serif;
+font-family: 'Open Sans', sans-serif;
 }
 
-.banner img {
-    max-width: 100%;
-    height: auto;
-    
-    
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.section-1 {
+    background-image: url(../images/Banner\ Image.png);
+    width: 1320px;
+    height: 600px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    margin: 50px auto;
+}
+.banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    justify-content: center;
+    text-align: center;
 }
 
 .banner-title {
-    position: absolute;
-    top: 10%;
-    padding: 30px;
+    color: aliceblue;
+    font-size: 25px;
+    margin: 200px 350px;
+    line-height: normal;
+    position:absolute;
+    justify-content: center;
     text-align: center;
 }
 
-
-.banner-title h3 {
-    color: #fcfcfc;
-    position: absolute;
-    font-size: 50px;
-    top: 10%;
-    font-weight: 550;
-    
+.banner-h2 {
+    font-weight: 200;
 }
-
-.banner-title h2 {
-    color: #f0efef;
-    position: absolute;
-    font-size: 100px;
+.banner-h3 {
+    height: 190px;
+    width: 632px;
+    color: aliceblue;
+    margin-top: 16px;
+    font-size: 70px;
     font-weight: 900;
-    top: 20%;
 }
 
-/* second part */
+/* section-2 */
 
-.bodypart-text {
-    color: #F00;
+.section-2 {
+    justify-content: center;
     text-align: center;
+}
+
+.second-title {
+    color: #F00;
+    
     font-family: Inter;
     font-size: 88px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
-
-.bodytext-line {
+.second-para {
 
     color: #F00;
-    text-align: center;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
+    
 }
-
-.categories-text {
+.third-para {
 
     color: #070211;
-    text-align: center;
-    font-family: Inter;
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-top: 16px;
 }
 
-.body-partarea {
-    display: block;
-    lign-items: center;
-}
-
-.newphoto-scrap {
-    width: 802.9px;
+.image-newyearphoto {
+    width: 800px;
     height: 500px;
+    margin: auto 399px;
+    align-items: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
-     
+    width: 50%;
 }
 
-/* third part */
+/* section 3 starts here */
 
-.third-banner-card {
-    position: relative;
-    margin-top: 80px;
-}
-
-.third-banner-card img{
-    height: auto;
-    max-width: 100%;
+.section-3 {
     
+    background-image: url(../images/Vectorrr.png);
+    width: 1320px;
+    height: 600px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    margin: 50px auto;
 }
 
-.banner-text {
+.section-3background {
     position: absolute;
-    top: 10%;
-    padding:20px;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+
 }
 
-.banner-text h2 {
+.sectitle-3 {
+    color: #FFF;
+    width: 642px;
     font-size: 64px;
     font-weight: 900;
-    color: #FFF;
+    line-height: 88px;
+    letter-spacing: 7px;
+    position: absolute;
+    margin: 126px 552px 290px 126px;
 }
 
-.banner-text p {
+.sec-para3 {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
     font-weight: 400;
+    line-height: 30px;
+    width: 697px 0;
+    position: absolute;
+    margin: 326px 497px 214px 126px;
+}
+
+
+.join-now > a {
+    text-decoration: none;
     color: #FFF;
-    font-size: 25px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    margin: 434px 1059px 142px 158px;
+    text-transform: uppercase;
     
 }
+
+.image-third {
+    width: 319.83px;
+    height: 464.662px;
+    z-index: 1;
+    position: absolute;
+    top: 50px;
+    left: 862px;
+   
+
+}
+
+
